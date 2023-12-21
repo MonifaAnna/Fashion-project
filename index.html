@@ -61,6 +61,28 @@
             margin-top: 300px;
             margin-left: 50px;
         }
+        .last-content{
+            height: 600px;
+           
+           
+        }
+        .first-form{
+            width: 500px;
+            height: 500px;
+     
+        }
+        .skill{
+            margin-left: 180px;
+        }
+        .stap{
+            margin-left: 160px;
+        }
+        .study{
+            margin-left: 100px;
+        }
+        #subject{
+         
+        }
     </style>
   </head>
   <body>
@@ -84,7 +106,7 @@
                         <a class="nav-link" href="#">About Us</a>
                       </li>
                       <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#subject">Contact Us</a>
                       </li>
                     
                     </ul>
@@ -105,7 +127,7 @@
         <section>
             <div class="mt-5">
                 <p class="fs-1 fw-bold">CASUAL SHOES</p>
-                <div class="row g-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5">
                     <div class="col shadow-lg me-5 second-div p-5">
                         <div class="">
                             <img src="btstrp-p2/images/Daco_1703273 1.png" class="w-75 ms-5 img-fluid" alt="">
@@ -141,7 +163,7 @@
             </div>
             <div class="mt-5">
                 <p class="fs-1 fw-bold">FORMAL SHOES</p>
-                <div class="row g-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5">
                     <div class="col shadow-lg me-5 second-div p-5">
                         <div class="">
                             <img src="btstrp-p2/images/Mask Group.png" class="w-75 ms-5 img-fluid" alt="">
@@ -216,7 +238,42 @@
             <img src="btstrp-p2/icons/XMLID 1.png" class="img-fluid" alt="">
         </div>
         </section>
+        <section id="subject">
+            <div class="last-content d-flex align-items-center justify-content-evenly">
+                <form class="shadow-lg p-4 first-form">
+                    <p class="fs-1 fw-bold">Contuct Us</p>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                 
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <a href="#" class="skill text-danger">Forget Password</a>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      
+                  
+                    
+                    </div>
+                  <div class="d-flex">
+                    <div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remind me</label>
+                          </div>
+                    </div>
+                   <div>
+                    <button type="submit" class="btn btn-primary stap">Log in</button>
+                   </div>
+                </div>
+                   <div>
+                    <p class="study mt-5">Don't have an account?<a href="#" class="text-danger">Create One</a></p>
+                   </div>
+                  </form>
+            </div>
+        </section>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 
